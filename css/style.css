@@ -133,7 +133,7 @@ h5,
 }
 
 .btn.btn-primary:hover {
-  color: #0e0325;
+  color: #000;
   background: #fff;
   border: 1px solid #0e0325;
 }
@@ -509,6 +509,7 @@ h5,
 
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
+  font-weight: 800;
 }
 
 .site-navbar .site-navigation .site-menu .active > a span {
@@ -760,6 +761,7 @@ h5,
   padding-top: 20px;
   background: #fff;
   height: calc(100vh);
+  border-radius: 120px 0px 0px 0px;
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
   transform: translateX(110%);
@@ -835,6 +837,7 @@ h5,
 .site-mobile-menu .site-nav-wrap {
   padding: 0;
   margin: 0;
+  margin-top: 55%;
   list-style: none;
   position: relative;
 }
